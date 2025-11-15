@@ -7,7 +7,14 @@
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
-  "icons": [
+  ""icons": [
+  {
+    "src": "images/icon-192x192.png", // <--- No leading slash here is crucial!
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+  // ... other icons
+]": [
     {
       "src": "images/icon-192x192.png",
       "sizes": "192x192",
